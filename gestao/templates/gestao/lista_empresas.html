@@ -1,0 +1,21 @@
+<h1> Teste lista_empresas... </h1>
+<!--Não está funcionando o for-->
+
+<ul>
+{% for empresa in empresas %}
+    <li> 
+        <a href= "{% url 'gestao_empresa_update' empresa.id %}">  {{ empresa.empresa }} </a>
+    </li>
+
+{% endfor %}
+
+</ul>
+
+<form action="{% url 'gestao_empresa_novo' %}" method="POST">
+    {% csrf_token %}
+
+    {{ form.as_p }}
+
+    <button type="submit">Cadastrar...</button>
+
+</form>

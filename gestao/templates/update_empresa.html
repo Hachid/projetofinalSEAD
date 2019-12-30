@@ -1,0 +1,15 @@
+<h2> Updating Empresa: {{ empresa }} </h2>
+
+
+
+<form action ="{% url 'gestao_empresa_update' empresa.id %}" method ='POST'>
+
+        {% csrf_token %}
+
+        {{ form.as_p }}
+
+        <button type="submit"> Salvar</button>
+
+</form>
+
+<a href= "{% url 'gestao_empresa_delete' empresa.id %}" > Deletar </a>

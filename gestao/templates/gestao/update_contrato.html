@@ -1,0 +1,13 @@
+<h2> Updating Contrato: {{ contratada }} </h2>
+
+
+
+<form action ="{% url 'gestao_contrato_update' contratada.id %}" method ='POST'>
+
+        {% csrf_token %}
+
+        {{ form.as_p }}
+
+        <button type="submit"> Salvar </button>
+
+</form>

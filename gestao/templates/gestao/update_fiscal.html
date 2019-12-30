@@ -1,0 +1,15 @@
+<h2> Updating Fiscal: {{ fiscal }} </h2>
+
+
+
+<form action ="{% url 'gestao_fiscal_update' fiscal.id %}" method ='POST'>
+
+        {% csrf_token %}
+
+        {{ form.as_p }}
+
+        <button type="submit"> Salvar </button>
+
+</form>
+<a href="{% url 'gestao_fiscal_delete' fiscal.id %}"> Deletar </a>
+          

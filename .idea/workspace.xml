@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86185b80-fabd-4534-8ac3-1b6317417d3d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="projetoFinal" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectId" id="1VJE3HiGNRmvSg60NeD0rGXughQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hachi\Django\projetoFinal\projetoSEAD" />
+      <recent name="C:\Users\hachi\Django\projetoFinal\gestao" />
+      <recent name="C:\Users\hachi\Django\projetoFinal\gestao\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.testeCalc">
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="projetoFinal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gestao" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gestao/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="modelsTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="projetoFinal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gestao" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\hachi\Django\projetoFinal\projetoSEAD\modelsTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testeCalc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="projetoFinal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gestao" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gestao/testeCalc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.testeCalc" />
+        <item itemvalue="Python.modelsTest" />
+        <item itemvalue="Python.models" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\hachi\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86185b80-fabd-4534-8ac3-1b6317417d3d" name="Default Changelist" comment="" />
+      <created>1576962596357</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576962596357</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/GestaoSEAD" />
+      <path value="$PROJECT_DIR$/GestaoSEAD/GestaoSEAD" />
+      <path value="$PROJECT_DIR$/GestaoSEAD/GestaoSEAD/GestaoSEAD" />
+      <path value="$PROJECT_DIR$" />
+      <path value="git@github.com:Hachid/GestaoOrcamentSEAD.git" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="276" y="-956" key="#Notifications" timestamp="1576963745698">
+      <screen x="-116" y="-1200" width="1600" height="1170" />
+    </state>
+    <state x="276" y="-956" key="#Notifications/0.0.1366.738/-116.-1200.1600.1170@-116.-1200.1600.1170" timestamp="1576963745698" />
+    <state x="138" y="-959" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576964179821">
+      <screen x="-116" y="-1200" width="1600" height="1170" />
+    </state>
+    <state x="138" y="-959" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/-116.-1200.1600.1170@-116.-1200.1600.1170" timestamp="1576964179821" />
+    <state x="462" y="112" key="FileChooserDialogImpl" timestamp="1577501814750">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="462" y="112" key="FileChooserDialogImpl/0.0.1366.738/-85.-1200.1600.1170@0.0.1366.738" timestamp="1577501814750" />
+    <state width="1579" height="325" key="GridCell.Tab.0.bottom" timestamp="1577039566196">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1579" height="400" key="GridCell.Tab.0.bottom/0.0.1366.738/-116.-1200.1600.1170@-116.-1200.1600.1170" timestamp="1576966721000" />
+    <state width="1579" height="325" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1577039566196" />
+    <state width="1579" height="325" key="GridCell.Tab.0.center" timestamp="1577039566196">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1579" height="400" key="GridCell.Tab.0.center/0.0.1366.738/-116.-1200.1600.1170@-116.-1200.1600.1170" timestamp="1576966721000" />
+    <state width="1579" height="325" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1577039566196" />
+    <state width="1579" height="325" key="GridCell.Tab.0.left" timestamp="1577039566149">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1579" height="400" key="GridCell.Tab.0.left/0.0.1366.738/-116.-1200.1600.1170@-116.-1200.1600.1170" timestamp="1576966720999" />
+    <state width="1579" height="325" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1577039566149" />
+    <state width="1579" height="325" key="GridCell.Tab.0.right" timestamp="1577039566196">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1579" height="400" key="GridCell.Tab.0.right/0.0.1366.738/-116.-1200.1600.1170@-116.-1200.1600.1170" timestamp="1576966721000" />
+    <state width="1579" height="325" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1577039566196" />
+    <state width="1579" height="400" key="GridCell.Tab.1.bottom" timestamp="1576966721000">
+      <screen x="-116" y="-1200" width="1600" height="1170" />
+    </state>
+    <state width="1579" height="400" key="GridCell.Tab.1.bottom/0.0.1366.738/-116.-1200.1600.1170@-116.-1200.1600.1170" timestamp="1576966721000" />
+    <state width="1579" height="400" key="GridCell.Tab.1.center" timestamp="1576966721000">
+      <screen x="-116" y="-1200" width="1600" height="1170" />
+    </state>
+    <state width="1579" height="400" key="GridCell.Tab.1.center/0.0.1366.738/-116.-1200.1600.1170@-116.-1200.1600.1170" timestamp="1576966721000" />
+    <state width="1579" height="400" key="GridCell.Tab.1.left" timestamp="1576966721000">
+      <screen x="-116" y="-1200" width="1600" height="1170" />
+    </state>
+    <state width="1579" height="400" key="GridCell.Tab.1.left/0.0.1366.738/-116.-1200.1600.1170@-116.-1200.1600.1170" timestamp="1576966721000" />
+    <state width="1579" height="400" key="GridCell.Tab.1.right" timestamp="1576966721000">
+      <screen x="-116" y="-1200" width="1600" height="1170" />
+    </state>
+    <state width="1579" height="400" key="GridCell.Tab.1.right/0.0.1366.738/-116.-1200.1600.1170@-116.-1200.1600.1170" timestamp="1576966721000" />
+    <state x="257" y="25" key="SettingsEditor" timestamp="1577570409852">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="185" y="-972" key="SettingsEditor/0.0.1366.738/-116.-1200.1600.1170@-116.-1200.1600.1170" timestamp="1576964643083" />
+    <state x="257" y="25" key="SettingsEditor/0.0.1366.738/-116.-1200.1600.1170@0.0.1366.738" timestamp="1576974980057" />
+    <state x="257" y="25" key="SettingsEditor/0.0.1366.738/-85.-1200.1600.1170@0.0.1366.738" timestamp="1577570409852" />
+    <state x="379" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1577498544491">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="379" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738/-85.-1200.1600.1170@0.0.1366.738" timestamp="1577498544491" />
+    <state x="536" y="187" key="git4idea.history.wholeTree.VcsStructureChooser" timestamp="1576973888715">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="536" y="187" key="git4idea.history.wholeTree.VcsStructureChooser/0.0.1366.738/-116.-1200.1600.1170@0.0.1366.738" timestamp="1576973888715" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projetoSEAD/modelsTest.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

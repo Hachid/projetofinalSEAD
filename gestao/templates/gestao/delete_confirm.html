@@ -1,0 +1,8 @@
+<h2>Tem certeza que quer deletar: {{ fiscal }} </h2>
+
+<form method="POST" action="{% url 'gestao_fiscal_delete' fiscal.id %}">
+    {% csrf_token %}
+
+    <button type="submit"> Deletar </button>
+
+</form>

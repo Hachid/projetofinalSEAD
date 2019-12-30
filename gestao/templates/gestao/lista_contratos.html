@@ -1,0 +1,21 @@
+<h1> Teste lista_contratos </h1>
+
+
+<ul>
+{% for contratada in contratos %}
+    <li>
+    <a href= "{% url 'gestao_contrato_update' contratada.id %}">  {{ contratos.contratada }} </a>
+    </li>
+{% endfor %}
+
+</ul>
+
+<form action="{% url 'gestao_contrato_novo' %}" method="POST">
+    {% csrf_token %}
+
+    {{ form.as_p }}
+
+    <button type="submit">Cadastrar...</button>
+
+</form>
+<a href= "{% url 'gestao_contrato_delete' contratada.id %}" > Deletar </a>

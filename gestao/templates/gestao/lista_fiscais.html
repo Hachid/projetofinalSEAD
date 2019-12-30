@@ -1,0 +1,20 @@
+<h1> Teste lista_fiscal </h1>
+
+
+<ul>
+{% for fiscal in fiscais %}
+    <li> 
+        <a href= "{% url 'gestao_fiscal_update' fiscal.id %}">  {{ fiscal.fiscal }} </a>
+    </li>
+{% endfor %}
+
+</ul>
+
+<form action="{% url 'gestao_fiscal_novo' %}" method="POST">
+    {% csrf_token %}
+
+    {{ form.as_p }}
+
+    <button type="submit">Cadastrar...</button>
+
+</form>
