@@ -1,5 +1,7 @@
 from django.db import models
 from datetime import date
+from django.db.models.signals import m2m_changed
+from django.dispatch import receiver
 import decimal
 import operator
 import math
@@ -19,6 +21,7 @@ class Fiscal(models.Model):
         return self.fiscal
 
 
+
 class Empresa(models.Model):
     empresa = models.CharField(verbose_name=("Empresa"), max_length=80, blank=False, null=False)
     cnpj_Empresa = models.CharField(max_length=18, blank=True, null=True)
@@ -28,9 +31,11 @@ class Empresa(models.Model):
     valor_contratual = models.DecimalField( max_digits=14, decimal_places=2)
     saldo_utilizado = models.DecimalField( max_digits=14, decimal_places=2)
     dataAssinatura = models.DateField(("data de assinatura"), auto_now=False, auto_now_add=False)
-    telefone = models.CharField(max_length=15, blank=False, null=False)
+    telefone = models.CharField(max_length=15, blank=False,
+            null=False)
     email = models.EmailField(("E-mail"), max_length=254)
-    Nomfiscal = models.ForeignKey('Fiscal',verbose_name=("Fiscal"), related_name='Fiscal', on_delete=models.CASCADE)
+    Nomfiscal = models.ForeignKey('Fiscal',verbose_name=("Fiscal"),
+            related_name='Fiscal', on_delete=models.CASCADE)
     #fiscal = models.ForeignKey('Fiscal', verbose_name=("Fiscal"), on_delete=models.CASCADE)
 
     class Meta:
@@ -40,8 +45,9 @@ class Empresa(models.Model):
         return self.empresa
 
     def saldoDisponivel(self):
-        return (self.valor_contratual - self.saldo_utilizado)
-    
+        return (self.valor_contratual) - (self.saldo_utilizado)
+
+
     def vigencia(self):
         hoje = date.today()
         assinatura = self.dataAssinatura

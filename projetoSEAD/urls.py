@@ -8,3 +8,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     
 ]
+
+admin.site.site_header = "Gestão SEAD-PV"
+admin.site.index_title = "Gestão Financeira e Orçamentária SEAD-PV"
+admin.site.site_title = "teste" #Complemento do título

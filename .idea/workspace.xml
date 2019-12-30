@@ -30,7 +30,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../djangoadv/gestao_clientes" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -155,10 +155,10 @@
       <screen x="-116" y="-1200" width="1600" height="1170" />
     </state>
     <state x="138" y="-959" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/-116.-1200.1600.1170@-116.-1200.1600.1170" timestamp="1576964179821" />
-    <state x="462" y="112" key="FileChooserDialogImpl" timestamp="1577501814750">
+    <state x="462" y="112" key="FileChooserDialogImpl" timestamp="1577668334281">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="462" y="112" key="FileChooserDialogImpl/0.0.1366.738/-85.-1200.1600.1170@0.0.1366.738" timestamp="1577501814750" />
+    <state x="462" y="112" key="FileChooserDialogImpl/0.0.1366.738/-85.-1200.1600.1170@0.0.1366.738" timestamp="1577668334281" />
     <state width="1579" height="325" key="GridCell.Tab.0.bottom" timestamp="1577039566196">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

@@ -3,14 +3,35 @@ from .models import Empresa, Fiscal, GestaoContrato, Orcamento, Rubrica
 
 
 class EmpresaAdmin(admin.ModelAdmin):
-        list_display = ('pk', 'empresa', 'objeto', 'Nomfiscal',  'vigencia',
-        'valor_contratual', 'saldoDisponivel', 'dataAssinatura', 'contrato' , 'processoRaiz')
+        fieldsets =[
+            ('Dados da Empresa', {'fields':
+                  [('empresa', 'cnpj_Empresa'), ('telefone', 'email')]
+            }),
+            ('Dados do Contrato', {'fields':
+                   [('processoRaiz','objeto'), ('contrato', 'dataAssinatura'),
+                    ('valor_contratual', 'saldo_utilizado')]
+            }),
+            ('Dados da Fiscalização',  {'fields':
+                    ['Nomfiscal']
+            }),
+        ]
+
+        raw_id_fields = ['Nomfiscal']
+
+        #list_filter = ['Nomfiscal'] #Filtro Lateral
+        list_display = (
+            'empresa',  'objeto', 'Nomfiscal', 'contrato',
+            'valor_contratual', 'saldo_utilizado', 'saldoDisponivel',
+            'dataAssinatura',  'vigencia', 'processoRaiz'
+        )
         search_fields = ('empresa', 'objeto', 'Nomfiscal')#defeito
+        autocomplete_fields = ['Nomfiscal']
 
         #se eu quiser colocar no grid o fiscal que é de outra classe.
         #coloco essa função depois no nome da função no display 'fiscal'
         def fiscal (self, obj):
             return obj.fiscal
+
 
 
 class FiscalAdmin(admin.ModelAdmin):
@@ -33,7 +54,8 @@ class OrcamentoAdmin(admin.ModelAdmin):
 
 
 class RubricaAdmin(admin.ModelAdmin):
-    list_display = ('codigoDesp', 'subelemento', 'descricao', 'valorRubrica')
+    list_display = ('codigoDesp', 'subelemento', 'descricao',
+                    'valorRubrica')
     search_fields = ('codigoDesp', 'subelemento', 'descricao')
 
 

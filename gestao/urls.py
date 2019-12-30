@@ -35,7 +35,5 @@ urlpatterns = [
 
     #URL dispensas
     #URL rubricas
-    
-
-]
+ ]
 
